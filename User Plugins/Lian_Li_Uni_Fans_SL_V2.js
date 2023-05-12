@@ -152,7 +152,7 @@ let savedPollFanTimer = Date.now();
 const PollModeInternal = 3000;
 
 function burstFans() {
-	for(let fan = 0; fan < 6; fan++) {
+	for(let fan = 0; fan < 4; fan++) {
 		setFanPercent(fan, 50);
 	}
 }
@@ -169,7 +169,7 @@ function PollFans() {
 		return;
 	}
 
-	for(let fan = 0; fan < 6; fan++) {
+	for(let fan = 0; fan < 4; fan++) {
 		const rpm = readFanRPM(fan);
 		device.log(`Fan ${fan}: ${rpm}rpm`);
 
