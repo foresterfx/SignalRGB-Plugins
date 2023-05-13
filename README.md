@@ -1,5 +1,5 @@
 # SignalRGB-Plugins
-Just my plugins for SignalRGB for my hardware.
+Just my plugins for SignalRGB for my hardware. Use at your own risk.
 
 The GPU plugin is a modified version of the SignalRGB native plugin. It changes the default image of the MSI GPU.
 
